@@ -32,11 +32,14 @@ driver.get('https://www.goodreads.com/user/sign_in')
 # In[3]:
 
 
+username =''
+password =''
+
 username_form= driver.find_element_by_id("user_email")
-username_form.send_keys("mburnamfink@gmail.com")
+username_form.send_keys(username)
 
 username_form= driver.find_element_by_id("user_password")
-username_form.send_keys("mad5ki11z")
+username_form.send_keys(password)
 username_form.send_keys(Keys.RETURN)
 
 
