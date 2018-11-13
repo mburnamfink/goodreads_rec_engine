@@ -1,3 +1,6 @@
 launch from AWS: Dropbox/mcnulty/bokeh app
 
 bokeh serve main.py --allow-websocket-origin=54.183.162.162:5006
+
+bokeh serve main.py --allow-websocket-origin=13.57.26.199:5006
+
